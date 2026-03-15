@@ -12,11 +12,11 @@ const Login = ({setToggle}) => {
                     <form className=''>
                         <div className=''>
                             <label className='block text-sm font-medium text-slate-700 mb-2'>Email</label>
-                            <input type="text" className='w-full px-3 py-4 border border-slate-400 rounded-xl text-sm mb-4 text-slate-800 focus:outline-none focus:ring-2 focus:ring-slate-400 focus:border-transarent' placeholder='example@email.com' />
+                            <input type="text" className='w-full px-3 py-4 border border-slate-400 rounded-xl text-sm mb-4 text-slate-800 focus:outline-none focus:ring-2 focus:ring-slate-400 focus:border-transarent' placeholder='example@email.com' required />
                         </div>
                         <div className=''>
                             <label className='block text-sm font-medium text-slate-700 mb-2'>Password</label>
-                            <input type="password" className='w-full px-3 py-4 border border-slate-400 rounded-xl text-sm mb-4 text-slate-800 focus:outline-none focus:ring-2 focus:ring-slate-400 focus:border-transarent' placeholder='*****' />
+                            <input type="password" className='w-full px-3 py-4 border border-slate-400 rounded-xl text-sm mb-4 text-slate-800 focus:outline-none focus:ring-2 focus:ring-slate-400 focus:border-transarent' placeholder='*****' required />
                         </div>
                         <button className='w-full bg-slate-900 text-white py-3 px-4 outline-none border-none  rounded-xl text-md font-bold'>Sign in</button>
                         <p className='mt-6 text-center text-sm text-slate-600'>Don't have an account?&nbsp;
